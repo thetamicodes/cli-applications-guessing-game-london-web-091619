@@ -11,7 +11,7 @@ def prompt_user
 end
 
 def get_user_input
-  input = gets.chomp
+  gets.chomp.to_s 
 end 
 
 def check_numbers
